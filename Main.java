@@ -19,7 +19,7 @@ public class Main {
 
             }
         }
-
+        System.out.println();
         for (int a = 0; a < z.length; a++) {
 
             System.out.print(z[a]);
@@ -28,7 +28,7 @@ public class Main {
 
             }
         }
-
+        System.out.println();
         for (int a = 0; a < bike.length; a++) {
 
             System.out.print(bike[a]);
@@ -37,8 +37,38 @@ public class Main {
 
             }
         }
+        System.out.println();
+        //Задание 3
+        for (int a = f.length-1; a >=0 ; a--){
 
+            System.out.print(f[a]);
+            if (a!= 0) {
+                System.out.print(", ");
 
+            }
+        }
+        System.out.println();
+
+        for (int a = z.length-1; a >=0 ; a--) {
+
+            System.out.print(z[a]);
+            if (a!= 0) {
+                System.out.print(", ");
+
+            }
+        }
+        System.out.println();
+
+        for (int a = bike.length-1; a >=0; a--) {
+
+            System.out.print(bike[a]);
+            if (a!= 0) {
+                System.out.print(", ");
+
+            }
+        }
+
+        //Задание 4
 
     }
 }
