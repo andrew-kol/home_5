@@ -11,27 +11,34 @@ public class Main {
 
         //Задание 2
 
-        for (int a = 0; a < f.length; a++) {
+        for (int a = 0; a < f.length; a++){
 
             System.out.print(f[a]);
-            if (a ! = f.length-1) {
+            if (a!= f.length-1) {
                 System.out.print(", ");
+
             }
         }
+
         for (int a = 0; a < z.length; a++) {
 
             System.out.print(z[a]);
-            if (a ! = z.length-1) {
+            if (a!= z.length-1) {
                 System.out.print(", ");
+
             }
         }
 
         for (int a = 0; a < bike.length; a++) {
 
             System.out.print(bike[a]);
-            if (a ! = bike.length-1) {
+            if (a!= bike.length-1) {
                 System.out.print(", ");
+
             }
         }
+
+
+
     }
 }
