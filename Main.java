@@ -11,10 +11,10 @@ public class Main {
 
         //Задание 2
 
-        for (int a = 0; a < f.length; a++){
+        for (int a = 0; a < f.length; a++) {
 
             System.out.print(f[a]);
-            if (a!= f.length-1) {
+            if (a != f.length - 1) {
                 System.out.print(", ");
 
             }
@@ -23,7 +23,7 @@ public class Main {
         for (int a = 0; a < z.length; a++) {
 
             System.out.print(z[a]);
-            if (a!= z.length-1) {
+            if (a != z.length - 1) {
                 System.out.print(", ");
 
             }
@@ -32,43 +32,54 @@ public class Main {
         for (int a = 0; a < bike.length; a++) {
 
             System.out.print(bike[a]);
-            if (a!= bike.length-1) {
+            if (a != bike.length - 1) {
                 System.out.print(", ");
 
             }
         }
         System.out.println();
         //Задание 3
-        for (int a = f.length-1; a >=0 ; a--){
+        for (int a = f.length - 1; a >= 0; a--) {
 
             System.out.print(f[a]);
-            if (a!= 0) {
+            if (a != 0) {
                 System.out.print(", ");
 
             }
         }
         System.out.println();
 
-        for (int a = z.length-1; a >=0 ; a--) {
+        for (int a = z.length - 1; a >= 0; a--) {
 
             System.out.print(z[a]);
-            if (a!= 0) {
+            if (a != 0) {
                 System.out.print(", ");
 
             }
         }
         System.out.println();
 
-        for (int a = bike.length-1; a >=0; a--) {
+        for (int a = bike.length - 1; a >= 0; a--) {
 
             System.out.print(bike[a]);
-            if (a!= 0) {
+            if (a != 0) {
                 System.out.print(", ");
 
             }
         }
 
         //Задание 4
+        for (int a = 0; a < f.length; a++) {
 
+
+            if (f[a] % 2 == 1) {
+                f[a]++;
+            }
+            System.out.print(f[a]);
+            if (a != f.length - 1) {
+                System.out.print(", ");
+            }
+            System.out.println();
+        }
     }
 }
